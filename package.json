@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/LyoSU/quote-api#readme",
   "dependencies": {
-    "canvas": "^2.8.0",
+    "@napi-rs/canvas": "^0.1.47",
     "dotenv": "^7.0.0",
     "emoji-db": "^15.1.2",
     "jimp": "^1.6.0",
