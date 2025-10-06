@@ -1,2 +1,2 @@
-require('dotenv').config({ path: './.env' })
-require('./app')
+const app = require('./app')
+module.exports = app
