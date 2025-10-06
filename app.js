@@ -49,8 +49,5 @@ route.use('/*', routes.routeApi.routes())
 
 app.use(route.routes())
 
-const port = process.env.PORT || 3000
-
-app.listen(port, () => {
-  console.log('Listening on localhost, port', port)
-})
+// Bagian yang diubah untuk support serverless handler
+module.exports = app.callback()
